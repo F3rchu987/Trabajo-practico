@@ -1,0 +1,69 @@
+print("|---------------------|")
+print("| TURNO DEL USUARIO 1 |")
+print("|---------------------|")
+nombre1 = input("Ingrese su nombre: ")
+puntos1 = 0
+
+print("Hola " + nombre1 + ", respondé con Verdadero o Falso:")
+
+
+res = input("1. ¿El sol es una estrella? ")
+if res == "Verdadero" or res == "verdadero":
+    puntos1 = puntos1 + 1
+
+
+res = input("2. ¿El agua hierve a 50 grados? ")
+if res == "Falso" or res == "falso":
+    puntos1 = puntos1 + 1
+
+
+res = input("3. ¿Python es un lenguaje de programación? ")
+if res == "Verdadero" or res == "verdadero":
+    puntos1 = puntos1 + 1
+
+
+res = input("4. ¿Los gatos tienen 5 vidas? ")
+if res == "Falso" or res == "falso":
+    puntos1 = puntos1 + 1
+
+
+res = input("5. ¿Argentina ganó el mundial de Qatar 2022? ")
+if res == "Verdadero" or res == "verdadero":
+    puntos1 = puntos1 + 1
+
+
+print("|---------------------|")
+print("| TURNO DEL USUARIO 2 |")
+print("|---------------------|")
+nombre2 = input("Ingrese su nombre: ")
+puntos2 = 0
+
+print("Hola " + nombre2 + ", respondé con Verdadero o Falso:")
+
+res = input("1. ¿El sol es una estrella? ")
+if res == "Verdadero" or res == "verdadero":
+    puntos2 = puntos2 + 1
+
+res = input("2. ¿El agua hierve a 50 grados? ")
+if res == "Falso" or res == "falso":
+    puntos2 = puntos2 + 1
+
+res = input("3. ¿Python es un lenguaje de programación? ")
+if res == "Verdadero" or res == "verdadero":
+    puntos2 = puntos2 + 1
+
+res = input("4. ¿Los gatos tienen 5 vidas? ")
+if res == "Falso" or res == "falso":
+    puntos2 = puntos2 + 1
+
+res = input("5. ¿Argentina ganó el mundial de Qatar 2022? ")
+if res == "Verdadero" or res == "verdadero":
+    puntos2 = puntos2 + 1
+
+
+
+print("|---------------------|")
+print("| PUNTAJES FINALES    |")
+print("|---------------------|")
+print("Usuario: " + nombre1 + " - Puntaje: " + str(puntos1) + " puntos.")
+print("Usuario: " + nombre2 + " - Puntaje: " + str(puntos2) + " puntos.")

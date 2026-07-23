@@ -1,0 +1,4 @@
+B = float(input("Ingrese base: "))
+H = float(input("Ingrese altura: "))
+
+print("Superficie: " + str((B * H) / 2))

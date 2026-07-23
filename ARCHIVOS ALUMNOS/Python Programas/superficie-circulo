@@ -1,0 +1,7 @@
+print(" CALCULADORA DE CÍRCULOS  ")
+
+r = float(input("Ingrese el radio (cm): "))
+
+print("|=======================================================|")
+print("| RESULTADO: El área es " + str(3.14 * (r * r)) + " cm² |")
+print("|=======================================================|")
