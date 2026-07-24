@@ -1,0 +1,17 @@
+print ("___________")
+print ("|   hola   |")
+print ("___________")
+""
+print("   *   ")
+print("  ***  ")
+print(" ***** ")    
+print("*******  ")
+""
+print("   / \   ")
+print("  /   \  ")
+print(" /     \ ")
+print("/_______\ ")
+""
+print(" ____________")
+print("|  marianon  |")
+print("|____________|")

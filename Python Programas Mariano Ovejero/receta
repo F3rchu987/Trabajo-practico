@@ -1,0 +1,40 @@
+
+print("| Bienvenidos al software de calculo |")
+print("ATENCION NO INGRESAR MENOS DE 100 docenas")
+print("¿Cuantas docenas de medialunas deas hacer hoy?")
+
+
+cantidad = int(input())
+
+harina_g = 500 * cantidad
+leche_g = 225 * cantidad
+levadura_g = 25 * cantidad
+huevos_g = 1 * cantidad
+azucar_g = 100 * cantidad
+miel_g = 15 * cantidad
+sal_g = 15 * cantidad
+manteca_g = 200 * cantidad
+harina_para_empaste_g = 25 * cantidad
+
+harina = harina_g / 1000
+leche = leche_g / 1000
+levadura = levadura_g / 1000
+huevos = huevos_g / 1000
+azucar = azucar_g / 1000
+miel = miel_g / 1000
+sal = sal_g / 1000
+manteca = manteca_g / 1000
+harina_para_empaste = harina_para_empaste_g / 1000
+
+print("____________________________________________________")
+print("| Las cantidades que necesitas son las siguientes   |")
+print("| Harina1 ", harina, " KG                           |")
+print("| Leche1 ", leche, " KG                             |")
+print("| Levadura1 ", levadura, " KG                       |")
+print("| Huevos1 ", huevos, " KG                           |")
+print("| Azucar1 ", azucar, " KG                           |")
+print("| Miel1 ", miel, " KG                               |")
+print("| Sal1 ", sal, " KG                                 |")
+print("| Manteca1 ", manteca, " KG                         |")
+print("| Harina_para_empaste1 ", harina_para_empaste, " KG |")
+print("____________________________________________________")
