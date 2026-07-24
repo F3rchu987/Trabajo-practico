@@ -1,0 +1,12 @@
+opcion=int(input("Elija una tabla de multiplicar:"))
+if opcion>=1:
+    print(opcion, "x 1 = ", opcion*1)
+    print(opcion, "x 2 = ", opcion*2)
+    print(opcion, "x 3 = ", opcion*3)
+    print(opcion, "x 4 = ", opcion*4)
+    print(opcion, "x 5 = ", opcion*5)
+    print(opcion, "x 6 = ", opcion*6)
+    print(opcion, "x 7 = ", opcion*7)
+    print(opcion, "x 8 = ", opcion*8)
+    print(opcion, "x 9 = ", opcion*9)
+    print(opcion, "x 10 = ",opcion*10)
